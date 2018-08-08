@@ -17,6 +17,6 @@ class WeatherApplication {
 	}
 
     def stat(){
-        println("Hi there")
+        println("Groovy application started there")
     }
 }
