@@ -22,6 +22,6 @@ class JobRunner {
     getData(){
         def url = apiUrl + apiCity + apiKey
         def response = restTemplate.getForEntity(url, OpenWeatherMapResponse.class)
-        print(response)
+        println("Get data by scheduler")
     }
 }
